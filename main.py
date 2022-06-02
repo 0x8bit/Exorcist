@@ -19,7 +19,7 @@ vlevel = 0
 
 def getlines(dir):
     """
-    Take a dir/file. If it's a directory, operate only on files that endswith (.c, .cc, .cpp, .py, .h) 
+    Take a dir/file. If it's a directory, operate only on files that endswith (.c, .cc, .cpp) 
     then parse all lines to a dictionary whose key is the full filepath. Same goes for a specific file 
     input except that there are no extension restrictions.
     """
