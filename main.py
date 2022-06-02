@@ -4,7 +4,7 @@ files = []
 visited = set()
 properties = {}
 slines = {}
-unsafe_func = ['memcpy', 'strcpy', 'realloc', 'free', 'system']
+unsafe_func = ['memcpy', 'strcpy', 'realloc', 'free', 'system', 'malloc']         #not exhaustive list, just for test
 root_dir = ""
 
 args = {"-v":[get_args('-v', lone=True), "verbose"], "-s":[get_args('-s'), "Search"], 
